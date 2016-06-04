@@ -1,0 +1,2 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+A: Initialising a repository tells GIT to create repository for all files under this master. I need it to store all my related documents together and be able to commit to GIT

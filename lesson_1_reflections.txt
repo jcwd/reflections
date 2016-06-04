@@ -1,0 +1,24 @@
+Q: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+A: it was tough, I was pleased to get it working but found it difficult to trace the bug without help. Some highlighting of the differences might have been nice.
+
+Q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+A: older files may contain entire blocks of code that you may want to re-use. Having the older versions allows you to go back to them and investigate how you did this. It also enables you to rollback quickly when something goes wrong with your production version so that production downtime is minimised
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+A: The cons are that you have to remember to create your commits at logical sequences, this will come with time and experience. Thr pros are that you have control. again choosing the logical sequnce for your commits rether than having this chosen for you.
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+A: This is because Google Docs is not a developer based version control system (this means it is designed to show changes beteweeen files that exist without dependencies.) GIT however is designed for a developer mindset where files have dependencies on one another. Thus for tracking the state of mutiple files it is more advisable to use GIT .
+
+Q:How can you use the commands git log and git diff to view the history of files?
+A: see below
+<!-- checking the logs of the downloaded repository -->
+git log
+<!-- checking diffence between 2 commit ids -->
+git diff b0678b161fcf74467ed3a63110557e3d6229cfa6 f19cb1b80fe27e938e4d72770ca0a42f25e99ecc
+
+Q:How might using version control make you more confident to make changes that could break something?
+A: it makes me really confident as I know if I keep my versions nicely in GIT then I will always be able to fall back on working versions and identify differences.
+
+Q: how do you want to use GIT
+A:I will use git to share my files with others and get feedback also for version control and debugging etc
