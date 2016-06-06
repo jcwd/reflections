@@ -1,2 +1,9 @@
 Q: What happens when you initialize a repository? Why do you need to do it?
 A: Initialising a repository tells GIT to create repository for all files under this master. I need it to store all my related documents together and be able to commit to GIT
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+A: the staging area is a temporary place where you decide and arrange which files you want to commit. The advantage of this is that it gives you the option to check them and back out if you need to without messing with the repository or the working directory
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+A: you can control the contects of the staging area via the use of the comands git check status, git add, git reset, git log and git diff
+
