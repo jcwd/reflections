@@ -13,3 +13,4 @@ A: Branches can be usefull for experimenting with code where you want to leave t
 Q: How do the diagrams help you visualize the branch structure?
 A: they enable you to visualise the path back to master from your current branch. they will also show you which commits are unreachable from the current branch.
 
+
