@@ -9,3 +9,7 @@ A: you can control the contects of the staging area via the use of the comands g
 
 Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 A: Branches can be usefull for experimenting with code where you want to leave the master intact antil you have perfected your changes. I know that the master is in its last state and can work freely on the branch.
+
+Q: How do the diagrams help you visualize the branch structure?
+A: they enable you to visualise the path back to master from your current branch. they will also show you which commits are unreachable from the current branch.
+
