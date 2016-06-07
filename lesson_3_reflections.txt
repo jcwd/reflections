@@ -10,3 +10,5 @@ A: A Fork is created in Github only, it is a method of creating your own copy fr
 Q : What is the benefit of having a copy of the last known state of the remote stored locally?
 A : having a local copy of the last known state enables you to continue work even if you are offline on the latest state. when you come back online later you can check out any differences and sync up where necessarry.
 
+Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+A: Without Github I would need to use another collaberation tool. I dont think anything would be easier . It would be harder to see differences in the codes, i would not have a visibility on branches, I could not easily identify conflicts in order to fix them and it would be more difficult to merge.
