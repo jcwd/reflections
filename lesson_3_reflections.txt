@@ -6,3 +6,7 @@ A: Pulling manually the changes enables us to stay in control of them. Example i
 
 Q: Describe the differences between forks, clones, and branches. When would you use one instead of another?
 A: A Fork is created in Github only, it is a method of creating your own copy from a previously created project in a repository (eithor your own or from another shared repository on GITHUB it enables you to work without impact on the existing repository. Branches are local, like forks they enable you to take an existing project and work with it but the work you do will continue in this branch only unless merged again with the master. Cloning is used to copy your project either from a local repository locally or copy a project repository from github. This enables you to begin new work on that project but also gives you the ablility to seperate your work from the existing repository for)
+
+Q : What is the benefit of having a copy of the last known state of the remote stored locally?
+A : having a local copy of the last known state enables you to continue work even if you are offline on the latest state. when you come back online later you can check out any differences and sync up where necessarry.
+
